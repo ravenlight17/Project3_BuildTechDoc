@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Project 3 - Build a Technical Documentation Page</title>
+</head>
+<body>
+    <!-- Container Start -->
+    <div class="container">
+
+    <!-- Nav Start -->
+    <nav id="navbar">
+        <header>
+            Google Tech Career Training
+        </header>
+        <a href="#introduction" class="nav-link">Introduction</a>
+        <a href="#java_project_1" class="nav-link">Java Project 1 - Tools and Collaboration</a>
+        <a href="#java_project_2" class="nav-link">Java Project 2 - Programming Concepts</a>
+        <a href="#java_project_3" class="nav-link">Java Project 3 - Introduction to Objects</a>
+        <a href="#java_project_4" class="nav-link">Java Project 4 - OOP and Libraries</a>
+    </nav>
+    <!-- Nav End -->
+   
+    <!--Main Start-->
+    <main id="main-doc">
+
+        <!-- Section 1 - Introduction -->
+        <section class="main-section" id="introduction">
+            <header>
+                Introduction
+            </header>
+            <article>
+                <p>
+                    Having a portfolio that showcases your skills is one of several ways employers can learn about your technical experience. As you transition into working in web development, a portfolio is important because it provides a place to not only list this experience, but to showcase your work.  It also contextualizes it in greater detail for employers that takes your resume a step further.
+                </p>
+                <p>
+                    For this project, you will be building a technical documentation page like this one - Technical Documentation Website Sample. 
+                    Complete the following tasks:
+                </p>
+                <!-- <code></code> -->
+                <ul class="ul-list">
+                    <li>Expand your knowledge of web development technologies</li>
+                    <li>Develop a portfolio of your web design projects</li>
+                    <li>Practice your communication and writing skills in content development</li>
+                </ul>
+                <div id="intro-toplink-div"><a href="#" >Back to Top</a></div>
+            </article>
+
+        <!-- Section 1 - Introduction End-->
+    </section>
+        <!-- Section 1 Start -->
+        
+        <section class="main-section" id="java_project_1">
+            <header>
+                Project 1 - Tools and Collaboration
+            </header>
+            <article>
+                <p>
+                    One of the traits of a successful software developer is understanding your tools and how to use them to exchange information with other developers.  This is very common with professional programming teams.  We are going to use typical collaborative tools to share information with teammates and other team members.
+                </p>
+                <p>
+                    All students just finished a 2-week class that covered basic HTML and Javascript programming.  We would like to hear from all the students on what were the most favorite and least favorite aspects of HTML (and Javascript) covered in the class.  We would also appreciate any candid suggestions on improving the 2-week class for future students.  For efficiency, you will work together in teams.  It will be interesting to see if there was some agreement (or not) among all the students about the topic.
+ 
+                </p>
+                </article>
+            <ul class="ul-list">
+                <li>Introduction to fundamental software and collaboration tools in this course, i.e., Workplace (Docs, Slides, Calendar), etc.</li>
+                <li>Understand how to use the tools to help you communicate your ideas and collaborate with your teammates, your tutors and your instructors.</li>
+            </ul>
+            <div class="top-link-div"><a href="#" class="top-link">Back to Top</a></div>
+        </section>
+         <!-- Section 1 End -->
+
+         <!-- Section 2 Start -->
+        <section class="main-section" id="java_project_2">
+            <header>
+                Java Project 2 - Programming Concepts
+
+            </header>
+            <article>
+                <p>
+                    One very common task for a programmer is to allow a user’s input to control a program.  For example, it could be to allow a customer to search for a product on a website, selecting a favorite song to play, moving an on-screen slider to control screen brightness, or simply asking for some numbers to perform a simple calculation.  This particular project will show you how to get simple text input from the user in a running program.  We’ll also have you demonstrate your code and give you feedback on your program and maybe ask you to make modifications!
+                </p>
+                <p>
+                    Write a program that accepts commands from the user and performs simple conversion calculations based on those commands.
+                </p>
+                <code>
+                    public class Parrot {
+                        public static void main(String[] argv) {
+                    
+                            System.out.print("Enter some text> ");
+                    
+                            java.util.Scanner in = new java.util.Scanner(System.in);
+                            String text = in.next();        // Get the next word
+                    
+                            System.out.println("Your word is: " + text);
+                        }
+                    }
+             </code>
+            </article>
+            <ul class="ul-list">
+                <li>Understand the steps in creating your first Java program</li>
+                <li>Learn how to obtain simple text input from a user</li>
+                <li>Know how to use a loop</li>
+                <li>Find out how to test if one string matches another</li>
+            </ul>
+            <div class="top-link-div"><a href="#" class="top-link">Back to Top</a></div>
+        </section>
+         <!-- Section 2 End -->
+
+         <!-- Section 3 Start -->
+        <section class="main-section" id="java_project_3">
+            <header>
+              Java Project 3: Introduction to Objects
+            </header>
+            <article>
+                <p>
+                    Object-Oriented-Programming (OOP) is a fundamental style of programming based on the notion of “objects” and “classes”.  OOP combines data and the procedures that operate that data, together in a unit.  To access or modify that data, you need to use those procedures (methods) within that object.  This style or philosophy helps to construct manageable applications composed of simple, reusable components.  It certainly is not the only style of programming, but it is a popular design and architectural strategy employed by professional programmers and system architects.  It is important that you become familiar with OOP since it is used in Android, Java, C++, Python, JavaScript and other programming environments.
+                </p>
+                <p>
+                    You want to help people find the smartphone of their dreams in your smartphone store.  You have a current inventory of existing Android phones, iPhones, and even some ancient not-so-smart phones.  A user has an idea of what smartphone features they want.  They want to search your store to see if you have them in stock.  Let’s write a small app that displays the smartphone inventory in your store.  And if you finish and feel adventurous enough, our Challenge problem will involve multiple phone stores and telling users the address of the store(s) that have their dream phone.
+                </p>
+                <code>
+                    public class MyApp {
+                    public static void main(String[] argv) {
+                      Smartphone one = new Smartphone("apple", "iphone 12", 
+                 "ios", 128, "black", 2, 699.00);
+                      Smartphone two = new Smartphone("samsung", "galaxy note", 
+                 "android", 256, "mystic bronze", 3, 349.00);        
+                         ...
+                  
+                        }
+                 }
+                 </code>
+                 <ul class="ul-list">
+                    <li>Understand why Object-Oriented Programming (OOP) is useful</li>
+                    <li>Learn how to design and create a Class</li>
+                    <li>Understand the value of abstraction in a problem solution</li>
+                    <li>Know what a constructor is </li>
+                    <li>Understand the value of composition and pattern recognition in computational thinking</li>
+                    <li>Learn more about methods and instance variables</li>
+                    <li>Use conditional statements in Java</li>
+   
+                </ul>
+                <div class="top-link-div"><a href="#" class="top-link">Back to Top</a></div>
+                 
+            </article>
+
+        </section>
+        <!-- Section 3 End -->
+
+        <!-- Section 4 Start -->
+        <section class="main-section" id="java_project_4">
+            <header>
+                Java Project 4 - OOP and Libraries
+            </header>
+            <arcticle>
+                <p>
+                    Many real-world programming languages follow Object-Oriented-Programming (OOP) principles.  It is important for you to have a thorough understanding of OOP beyond simple classes and objects that we covered in a previous lesson.  A typical real-world project can easily use dozens of classes and thousands of objects (some systems have millions).  Understanding OOP principles is essential to use objects and classes efficiently in a successful project.
+                </p>
+                <p>
+                    You want to build a small knowledge-base of your music that displays some details about the artist along with a link to their music on Youtube.   So while you’re listening to the song in one of your favorite playlists, you can see some details about the musician that created that song. Once we have built a small set of music data (just a few songs to keep it simple) we want to see what songs are in your small in-memory database for a given playlist.  You want to display the song, the artist, some details about that artist (where they are from, their major influence and a Youtube link to that song.  
+                </p>
+                <code>
+                    public class Song {
+                    String title;	// what type of accessor should we use?
+                    Musician musician;
+                    String playlist;	// or genre
+                    String url;		// Youtube URL
+                 …
+                 }
+                 </code>
+                 <ul class="ul-list">
+                    <li>Learn how to use subclasses</li>
+                    <li>Understand the difference between “Has-A” and “Is-A” relationships</li>
+                    <li>Know the basics of class design </li>
+                    <li>Understand the difference between an Array and an ArrayList</li>
+                </ul>
+                <div class="top-link-div"><a href="#" class="top-link">Back to Top</a></div>
+                </article>
+                
+        </section>
+         <!-- Section 4 End-->
+
+    </main>
+<!--Main End-->
+
+</div>
+<!-- Container End -->
+
+</body>
+
+</html>
