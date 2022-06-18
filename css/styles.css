@@ -11,6 +11,7 @@
 
 #navbar {
   align-items: start;
+  background-color: aliceblue;
   border-right: 3px solid silver;
 }
 
@@ -20,7 +21,7 @@
   color: black;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 10px;
   padding-left: 33px;
   text-decoration: none;
@@ -30,6 +31,7 @@
 .main-section {
   color: black;
   padding: 20px 20px;
+  background-color: ghostwhite;
 }
 
 header {
@@ -64,6 +66,11 @@ code {
 
 li {
   margin: 15px;
+}
+
+a:hover{
+  background-color:ghostwhite;
+  font-style: italic;
 }
 
 #intro-toplink-div {
